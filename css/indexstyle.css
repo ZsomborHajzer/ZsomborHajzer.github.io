@@ -1,21 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik+Gemstones&display=swap');
 
 .container {
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     display: grid;
     font-family: 'Roboto',
         sans-serif;
+    background-color: rgb(176, 192, 208);
+
 }
 
+
 .title {
-    grid-column: 1/11;
+    grid-column: 1/10;
     display: flex;
     justify-content: center;
 }
 
 .profileImg {
-    grid-column: 1/11;
+    grid-column: 3/4;
     display: flex;
     justify-content: flex-start;
-    padding-left: 15rem;
+
+}
+
+.info {
+    grid-column: 5/7;
+}
+
+.txt {
+    grid-column: 3/8;
+}
+
+.tutorial {
+    grid-column: 3/8;
 }
