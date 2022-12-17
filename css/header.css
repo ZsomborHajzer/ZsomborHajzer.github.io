@@ -10,11 +10,6 @@ body {
     margin: 0;
 }
 
-.container {
-    grid-template-columns: repeat(10, 1fr);
-    display: grid;
-}
-
 header {
     font-family: 'Rubik Gemstones', 'cursive';
 }

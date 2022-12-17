@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik+Gemstones&display=swap');
+
+.container {
+    grid-template-columns: repeat(10, 1fr);
+    display: grid;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+.title {
+    grid-column: 1/11;
+    display: flex;
+    justify-content: center;
+}
+
+.profileImg {
+    grid-column: 1/11;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15rem;
+}
