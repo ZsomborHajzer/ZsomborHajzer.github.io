@@ -59,3 +59,21 @@
 .planOfApproachImg a:hover {
     opacity: 0.5;
 }
+
+.meetingTitle {
+    grid-column: 3/8;
+}
+
+.meetingImg {
+    display: flex;
+    grid-column: 3/8;
+    justify-content: space-around;
+}
+
+.meetingImg p {
+    text-align: center;
+}
+
+.meetingImg a:hover {
+    opacity: 0.5;
+}
