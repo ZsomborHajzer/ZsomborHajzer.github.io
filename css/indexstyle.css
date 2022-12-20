@@ -34,3 +34,28 @@
 .tutorial {
     grid-column: 3/8;
 }
+
+.edumundoTitle {
+    grid-column: 3/8;
+
+}
+
+.edumundoImg {
+    grid-column: 3/8;
+}
+
+.edumundoImg a:hover {
+    opacity: 0.5;
+}
+
+.planofApproachTitle {
+    grid-column: 3/8;
+}
+
+.planOfApproachImg {
+    grid-column: 3/8;
+}
+
+.planOfApproachImg a:hover {
+    opacity: 0.5;
+}
