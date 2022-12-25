@@ -48,12 +48,31 @@
     opacity: 0.5;
 }
 
+.recFeedbackTitle {
+    grid-column: 3/8;
+}
+
+.recFeedbackImgs {
+    grid-column: 3/8;
+    display: flex;
+}
+
+.recFeedbackImgs a:hover {
+    opacity: 0.5;
+}
+
 .planofApproachTitle {
     grid-column: 3/8;
 }
 
 .planOfApproachImg {
     grid-column: 3/8;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.planOfApproachImg a {
+    padding-right: 100px;
 }
 
 .planOfApproachImg a:hover {
@@ -67,11 +86,13 @@
 .meetingImg {
     display: flex;
     grid-column: 3/8;
-    justify-content: space-around;
+    justify-content: space-between;
+
 }
 
 .meetingImg img {
     display: flex;
+
 }
 
 .meetingImg p {
@@ -79,5 +100,9 @@
 }
 
 .meetingImg a:hover {
+    opacity: 0.5;
+}
+
+.presentationImg a:hover {
     opacity: 0.5;
 }
