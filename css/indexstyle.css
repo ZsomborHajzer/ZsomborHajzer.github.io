@@ -61,6 +61,25 @@
     opacity: 0.5;
 }
 
+.givFeedbackTitle {
+    grid-column: 3/8;
+}
+
+.givFeedbackImg {
+    grid-column: 3/8;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.givFeedbackImg a {
+    padding-right: 20px;
+}
+
+.givFeedbackImg a:hover {
+    opacity: 0.5;
+}
+
 .planofApproachTitle {
     grid-column: 3/8;
 }
@@ -72,7 +91,7 @@
 }
 
 .planOfApproachImg a {
-    padding-right: 100px;
+    padding-right: 20px;
 }
 
 .planOfApproachImg a:hover {
@@ -86,13 +105,13 @@
 .meetingImg {
     display: flex;
     grid-column: 3/8;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 
 }
 
-.meetingImg img {
-    display: flex;
-
+.meetingImg a {
+    padding-right: 20px;
 }
 
 .meetingImg p {
