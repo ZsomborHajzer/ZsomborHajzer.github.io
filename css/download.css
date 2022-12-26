@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik+Gemstones&display=swap');
+
+.container {
+    grid-template-columns: repeat(9, 1fr);
+    display: grid;
+    font-family: 'Roboto',
+        sans-serif;
+    background-color: rgb(176, 192, 208);
+
+}
+
+.mainTitle {
+    grid-column: 3/8;
+}
+
+.edumundoTitle {
+    grid-column: 3/8;
+}
+
+.edumundoImg {
+    grid-column: 3/8;
+}
+
+.edumundoImg a:hover {
+    opacity: 0.5;
+}
+
+.recFeedbackTitle {
+    grid-column: 3/8;
+}
+
+.recFeedbackImgs {
+    grid-column: 3/8;
+    display: flex;
+}
+
+.recFeedbackImgs a:hover {
+    opacity: 0.5;
+}
+
+.givFeedbackTitle {
+    grid-column: 3/8;
+}
+
+.givFeedbackImg {
+    grid-column: 3/8;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.givFeedbackImg a {
+    padding-right: 20px;
+}
+
+.givFeedbackImg a:hover {
+    opacity: 0.5;
+}
+
+.planofApproachTitle {
+    grid-column: 3/8;
+}
+
+.planOfApproachImg {
+    grid-column: 3/8;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.planOfApproachImg a {
+    padding-right: 20px;
+}
+
+.planOfApproachImg a:hover {
+    opacity: 0.5;
+}
+
+.meetingTitle {
+    grid-column: 3/8;
+}
+
+.meetingImg {
+    display: flex;
+    grid-column: 3/8;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.meetingImg a {
+    padding-right: 20px;
+}
+
+.meetingImg p {
+    text-align: center;
+}
+
+.meetingImg a:hover {
+    opacity: 0.5;
+}
+
+.presentationTitle {
+    grid-column: 3/8;
+}
+
+.presentationImg {
+    grid-column: 3/8;
+}
+
+.presentationImg a:hover {
+    opacity: 0.5;
+}
+
+.communicationTitle {
+    grid-column: 3/8;
+}
