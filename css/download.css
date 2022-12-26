@@ -32,6 +32,12 @@
 .recFeedbackImgs {
     grid-column: 3/8;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.recFeedbackImgs a {
+    padding-right: 20px;
 }
 
 .recFeedbackImgs a:hover {
