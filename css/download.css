@@ -120,3 +120,23 @@
 .communicationTitle {
     grid-column: 3/8;
 }
+
+.communicationImg {
+    display: flex;
+    grid-column: 3/8;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.communicationImg a {
+    padding-right: 20px;
+}
+
+.communicationImg p {
+    text-align: center;
+}
+
+.communicationImg a:hover {
+    opacity: 0.5;
+}
