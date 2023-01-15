@@ -110,7 +110,14 @@
 }
 
 .presentationImg {
+    display: flex;
     grid-column: 3/8;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.presentationImg a {
+    padding-right: 20px;
 }
 
 .presentationImg a:hover {
